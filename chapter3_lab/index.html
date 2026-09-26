@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Festival!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="page-title">University Festival!</h1>
+  </header>
+
+  
+<nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#registration">Registration</a>
+    <a href="#media">Media</a>
+    <a href="#location">Location</a>
+</nav>
+
+  <main>
+    <section class="about" id="about">
+      <h2>About the Event</h2>
+      <p>Exciting events and performances from invited guests and students!</p>
+    </section>
+
+    <section class="schedule" id="schedule">
+      <h2>Event Schedule</h2>
+    <section>
+
+      <table class="schedule-table" border="1">
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>11:00AM</td>
+          <td>Opening Session</td>
+          <td>Main Stage</td>
+        </tr>
+        <tr>
+          <td>12:00AM</td>
+          <td>Food Truck Rally</td>
+          <td>ST Stadium</td>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td>Performances</td>
+          <td>Main Stage</td>
+        </tr>
+        <tr>
+          <td>9:00 PM</td>
+          <td>Closing Ceremony</td>
+          <td>Main Stage</td>
+      </table>
+
+      <h4>Performing Artists</h4>
+      <table border="1">
+        <tr>
+          <th>Time</th>
+          <th>Artist</th>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td>The Weeknd</td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td>Drake</td>
+        </tr>
+        <tr>
+          <td>7:00 PM</td>
+          <td>Billie Eilish</td>
+        </tr>
+        <tr>
+          <td>8:00 PM</td>
+          <td>Kendrick Lamar</td>
+        </tr>
+      </table>
+
+    </section>
+
+    <h1>Register for Student Tech Day</h1>
+    <section class="registration" id="registration">
+      <p>Fill out the form below to register for the event!</p>
+
+    <form>
+      <p>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text">
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email">
+      </p>
+
+      <p>
+        <label for="year">Study Year:</label>
+        <input id="year" name="year" type="number" min="1" max="4">
+      </p>
+
+      <p>
+        <input id="updates" name="updates" type="checkbox">
+        <label for="updates">Receive event updates</label>
+      </p>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+<section class="media-section" id="media">
+    <h1>Festival Highlights</h1>
+
+    <div class="media-container">
+
+        <!-- Kendrick on the left -->
+        <div class="media-card">
+            <h2>Kendrick Lamar</h2>
+            <img src="kendrick.webp"
+                 alt="Kendrick Lamar performing"
+                 class="media-image">
+        </div>
+
+        <!-- The Weeknd on the right -->
+        <div class="media-card">
+            <h2>The Weeknd</h2>
+            <video controls>
+                <source src="The greatest   Weeknd (1).mp4"
+                        type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Billie at the bottom -->
+        <div class="media-card billie-card">
+            <h2>Billie Eilish Greeting</h2>
+            <audio controls>
+                <source src="billie-greeting.mp3"
+                        type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+</section>
+
+<class="location-section" id="location">
+    <h2>Campus Location</h2>
+    <p>View Seoultech Map!</p>
+    <iframe
+    src="https://en.seoultech.ac.kr/about/cmap"
+    title="Campus Location Map"
+    width="600"
+    height="400">
+</iframe>
+
+  </main>
+
+   
+      
+  
+  
+
+  <footer>
+    <p>&copy; 2026 University Festival!</p>
+  </footer>
+
+</body>
+</html>
